@@ -1,0 +1,151 @@
+.intro{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:45vh;
+    animation-name: enter;
+    animation-duration: 2s;
+    
+}
+
+.intro::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0.68;
+    z-index:1;
+    background-image: url('../images/Huis.jpg');
+    background-size:cover;
+    background-position: 0 -50px;
+    
+}
+
+.intro h1{
+    text-align: center;
+    color: black;
+    position:relative;
+    margin-top: 5%;
+    z-index:2;
+}
+
+.intro a{
+    display:flex;
+    width: 104.417px;
+    height: 53px;
+    margin: auto;
+    margin-top: 2%;
+    position:relative;
+    z-index:2;
+    
+}
+
+
+.intro button{
+    display: flex;
+    margin: auto;
+    padding: 14px 28px;
+    background-color: transparent;
+    border: 2px solid #22271F;
+    color: #22271F;
+    font-weight: 600;
+    position:relative;
+    z-index:2;
+
+}
+
+.intro button:hover{
+    background-color: #97EB9C;
+
+}
+
+.intro p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    position:relative;
+    z-index:2;
+}
+
+.location{
+    position: absolute;
+    top: 11%;
+    left: 2%;
+    background-color: #22271F;
+    padding: 0 100px;
+    height: 300px;
+    text-align: center;
+    /* animation-name: fadout;
+    animation-duration: 400ms; */
+    opacity:0;
+    z-index: 4;
+}
+
+.location h3{
+    color: #97EB9C;
+
+}
+
+.location:hover{
+    animation-name: fadin;
+    animation-duration: 1s;
+    opacity:1;
+}
+
+.location iframe{
+    margin-top: 30px;
+}
+
+.location p{
+    transform: translateY(-60px);
+    color: #97EB9C;
+}
+
+.more-intro{
+    position:relative;
+    background-color: #22271F;
+    height:48vh;
+    
+}
+
+.more-intro p{
+    padding-top:10vh;
+    padding-left: 10vh;
+    width:45vw;
+    color: white;
+    animation-name: enter-side;
+    animation-duration: 2s;
+}
+
+.more-intro button{
+    display: flex;
+    padding: 14px 28px;
+    margin-left: 11vh;
+    margin-top: 7vh;
+    background-color: transparent;
+    border: 2px solid black;
+    background-color: #97EB9C;
+    color: Black;
+    font-weight: 600;
+    position:relative;
+    z-index:2;
+    animation-name: enter-side;
+    animation-duration: 2s;
+}
+
+.more-intro img{
+    height: 70%;
+    width: auto;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    box-shadow: 10px 10px 99px #97EB9C;
+    animation-name: enter-side;
+    animation-duration: 2s;
+
+}
