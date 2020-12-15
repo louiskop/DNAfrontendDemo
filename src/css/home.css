@@ -30,6 +30,7 @@
     position:relative;
     margin-top: 5%;
     z-index:2;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .intro a{
@@ -72,7 +73,7 @@
     z-index:2;
 }
 
-.location{
+/* .location{
     position: absolute;
     top: 11%;
     left: 2%;
@@ -80,8 +81,8 @@
     padding: 0 100px;
     height: 300px;
     text-align: center;
-    /* animation-name: fadout;
-    animation-duration: 400ms; */
+    animation-name: fadout;
+    animation-duration: 400ms;
     opacity:0;
     z-index: 4;
 }
@@ -104,7 +105,7 @@
 .location p{
     transform: translateY(-60px);
     color: #97EB9C;
-}
+} */
 
 .more-intro{
     position:relative;

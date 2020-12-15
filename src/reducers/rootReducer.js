@@ -13,7 +13,7 @@ const rootReducer = (state = initState, action) => {
     }
     
     if(action.type === 'CHANGE_NAV'){
-        if (state.navClass == 'normal'){
+        if (state.navClass === 'normal'){
             return {
                 ...state,
                 navClass: 'blackshadow'
